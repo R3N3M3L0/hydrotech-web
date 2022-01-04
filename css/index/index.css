@@ -9,6 +9,9 @@ li {
 a {
     text-decoration: none;
 }
+body {
+    background: black;
+}
 
 @media (max-width: 700px) {
     .header {
