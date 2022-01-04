@@ -9,10 +9,6 @@ li {
 a {
     text-decoration: none;
 }
-body {
-    background: black;
-}
-
 @media (max-width: 600px) {
     .header {
         width: 100%;
