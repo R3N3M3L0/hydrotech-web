@@ -52,6 +52,9 @@ a {
     .nav li a p:hover {
         background: linear-gradient(to bottom, rgba(8, 7, 85, 0.719), rgba(2, 1, 68, 0.719), rgba(5, 4, 51, 0.719));
     }
+    .video {
+        margin: 3%;
+    }
 }
 @media (min-width: 701px) {
     .iconoMenu {
