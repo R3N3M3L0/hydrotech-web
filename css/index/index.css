@@ -26,10 +26,12 @@ a {
     }
     .iconoMenu {
         width: 30%;
+        overflow-y: hidden;
     }
     .iconoMenuCerrado {
         width: 30%;
         display: none;
+        overflow-y: hidden;
     }
     .nav{
         width: 80%;
