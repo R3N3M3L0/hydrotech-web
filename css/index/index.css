@@ -1,0 +1,104 @@
+* {
+    font-family: 'Bebas Neue';
+    overflow-x: auto;
+    overflow-y: auto;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 700px) {
+    .header {
+        width: 100%;
+        background-image: url(../../img/ab2.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding: 1%;
+    }
+    .icono {
+        position: relative;
+        width: 35%;
+        margin-right: 30%;
+    }
+    .iconoMenu {
+        width: 30%;
+    }
+    .iconoMenuCerrado {
+        width: 30%;
+        display: none;
+    }
+    .nav{
+        width: 80%;
+        text-align: center;
+        position: fixed;
+        left: 10%;
+        top: 15%;
+        background-color: rgb(13, 11, 139);
+        display: none;
+        
+    }
+    .nav li {
+        font-size: 200%;
+        background: linear-gradient(to bottom, rgb(17, 14, 190), rgb(5, 3, 158), rgb(13, 11, 139));
+        padding-top: 1%;
+        padding-bottom: 0.5%;
+    }
+    .nav li a{
+        color: white;
+    }
+    .nav li a p:hover {
+        background: linear-gradient(to bottom, rgba(8, 7, 85, 0.719), rgba(2, 1, 68, 0.719), rgba(5, 4, 51, 0.719));
+    }
+}
+@media (min-width: 701px) {
+    .iconoMenu {
+        display: none;
+    }
+    .iconoMenuCerrado {
+        display: none;
+    }
+    .nav {
+        position: absolute;
+        width: 25%;
+        text-align: center;
+        display: inline-block;
+        margin: 1%;
+    }
+    .nav li {
+        font-size: 200%;
+        background: linear-gradient(to bottom, rgb(17, 14, 190), rgb(5, 3, 158), rgb(13, 11, 139));
+    }
+    .nav li a {
+        color: white;
+    }
+    .nav li a p:hover {
+        background: linear-gradient(to bottom, rgba(8, 7, 85, 0.719), rgba(2, 1, 68, 0.719), rgba(5, 4, 51, 0.719));
+    }
+    .header {
+        width: 100%;
+        background-image: url(../../img/ab.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding: 1%;
+        background-position-y: 20%;
+    }
+    .icono {
+        position: relative;
+        width: 15%;
+        margin-right: 30%;
+    }
+    .video {
+        width: 55%;
+        position: relative;
+        left: 26%;
+        display: inline-block;
+        margin-top: 1%;
+        margin-left: 1%;
+    }
+    .nav li a p {
+        overflow-y: hidden;
+    }
+}
