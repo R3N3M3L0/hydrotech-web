@@ -17,6 +17,7 @@ a {
         background-repeat: no-repeat;
         background-size: 100%;
         padding: 1%;
+        overflow-y: hidden;
     }
     .icono {
         position: relative;
@@ -54,6 +55,9 @@ a {
     }
     .video {
         margin: 3%;
+    }
+    .nav li a p {
+        overflow-y: hidden;
     }
 }
 @media (min-width: 701px) {
