@@ -1,7 +1,7 @@
 * {
     font-family: 'Bebas Neue';
-    overflow-x: auto;
-    overflow-y: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 li {
     list-style: none;
@@ -14,17 +14,12 @@ body {
 }
 
 @media (max-width: 600px) {
-    * {
-        overflow-x: hidden;
-        overflow-y: hidden;
-    }
     .header {
         width: 100%;
         background-image: url(../../img/ab2.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
         padding: 1%;
-        overflow-y: hidden;
     }
     .icono {
         position: relative;
@@ -33,12 +28,10 @@ body {
     }
     .iconoMenu {
         width: 30%;
-        overflow-y: hidden;
     }
     .iconoMenuCerrado {
         width: 30%;
         display: none;
-        overflow-y: hidden;
     }
     .nav{
         width: 80%;
@@ -64,9 +57,6 @@ body {
     }
     .video {
         margin: 3%;
-    }
-    .nav li a p {
-        overflow-y: hidden;
     }
 }
 @media (min-width: 601px) {
@@ -113,8 +103,5 @@ body {
         display: inline-block;
         margin-top: 1%;
         margin-left: 1%;
-    }
-    .nav li a p {
-        overflow-y: hidden;
     }
 }
