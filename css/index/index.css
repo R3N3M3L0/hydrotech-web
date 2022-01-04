@@ -9,6 +9,9 @@ li {
 a {
     text-decoration: none;
 }
+.content {
+    overflow: auto;
+}
 @media (max-width: 600px) {
     .header {
         width: 100%;
