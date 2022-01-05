@@ -91,7 +91,7 @@ body {
         width: 15%;
         margin-right: 30%;
     }
-    .equipos {
+    .formulario {
         width: 72%;
         position: relative;
         left: 26%;
@@ -100,25 +100,5 @@ body {
         margin-left: 1%;
         background-color: #ffffff;
     }
-    .equipos h1 {
-        text-align: center;
-        font-size: 400%;
-    }
-    .puntoDeDesinfeccion {
-        width: 49%;
-        display: inline-block;
-        border: 3px solid black;
-        position: relative;
-        margin-right: 1.7%;
-    }
-    .prueba {
-        width: 49%;
-        display: inline-block;
-        border: 3px solid black;
-        position: relative;
-    }
-    .botonPuntoDeDesinfeccion {
-        border: 0.5px solid #808080;
-        border-radius: 20% 20%;
-    }
+    
 }
