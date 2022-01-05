@@ -1,0 +1,124 @@
+* {
+    font-family: 'Bebas Neue';
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #c7c4c4;
+}
+
+@media (max-width: 600px) {
+    .header {
+        width: 100%;
+        background-image: url(../../img/ab2.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding: 1%;
+    }
+    .icono {
+        position: relative;
+        width: 35%;
+        margin-right: 30%;
+    }
+    .iconoMenu {
+        width: 26%;
+    }
+    .iconoMenuCerrado {
+        width: 26%;
+        display: none;
+    }
+    .nav{
+        width: 80%;
+        text-align: center;
+        position: fixed;
+        left: 10%;
+        top: 15%;
+        background-color: rgb(13, 11, 139);
+        display: none;
+        
+    }
+    .nav li {
+        font-size: 200%;
+        background: linear-gradient(to bottom, rgb(17, 14, 190), rgb(5, 3, 158), rgb(13, 11, 139));
+        padding-top: 1%;
+        padding-bottom: 0.5%;
+    }
+    .nav li a{
+        color: white;
+    }
+    .nav li a p:hover {
+        background: linear-gradient(to bottom, rgba(8, 7, 85, 0.719), rgba(2, 1, 68, 0.719), rgba(5, 4, 51, 0.719));
+    }
+}
+@media (min-width: 601px) {
+    .iconoMenu {
+        display: none;
+    }
+    .iconoMenuCerrado {
+        display: none;
+    }
+    .nav {
+        position: absolute;
+        width: 25%;
+        text-align: center;
+        display: inline-block;
+        margin: 1%;
+    }
+    .nav li {
+        font-size: 200%;
+        background: linear-gradient(to bottom, rgb(17, 14, 190), rgb(5, 3, 158), rgb(13, 11, 139));
+    }
+    .nav li a {
+        color: white;
+    }
+    .nav li a p:hover {
+        background: linear-gradient(to bottom, rgba(8, 7, 85, 0.719), rgba(2, 1, 68, 0.719), rgba(5, 4, 51, 0.719));
+    }
+    .header {
+        width: 100%;
+        background-image: url(../../img/ab.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding: 1%;
+        background-position-y: 20%;
+    }
+    .icono {
+        position: relative;
+        width: 15%;
+        margin-right: 30%;
+    }
+    .equipos {
+        width: 72%;
+        position: relative;
+        left: 26%;
+        display: inline-block;
+        margin-top: 1%;
+        margin-left: 1%;
+        background-color: #ffffff;
+    }
+    .equipos h1 {
+        text-align: center;
+        font-size: 400%;
+    }
+    .puntoDeDesinfeccion {
+        width: 49%;
+        display: inline-block;
+        border: 3px solid black;
+        position: relative;
+        margin-right: 1.7%;
+    }
+    .prueba {
+        width: 49%;
+        display: inline-block;
+        border: 3px solid black;
+        position: relative;
+    }
+    .botonPuntoDeDesinfeccion {
+        border: 0.5px solid #808080;
+        border-radius: 20% 20%;
+    }
+}
