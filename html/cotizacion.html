@@ -54,11 +54,12 @@
                 </nav>
             </div>
             <div class="formulario">
-                <form action="cotizacion.php" class="contact" name="contact-form" method="post"> 
-                    <input type="text" name="nombre">
-                    <input type="email" name="email">
-                    <textarea name="mensaje" id="message" cols="30" rows="10"></textarea>
-                    <input type="submit">
+                <form method="post" action="correo.php"> 
+                    <input type="text" placeholder="nombre" name="nombre" required>
+                    <input type="email" placeholder="email" name="email" required>
+                    <input type="text" placeholder="asunto" name="asunto" required>
+                    <textarea placeholder="Tu mensaje" name="msg" required></textarea>
+                    <input type="submit" name="enviar">
                 </form>
             </div>
         </div>

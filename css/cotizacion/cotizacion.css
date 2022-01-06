@@ -1,6 +1,4 @@
-* {
-    font-family: 'Bebas Neue';
-}
+
 li {
     list-style: none;
 }
@@ -10,7 +8,9 @@ a {
 body {
     background-color: #c7c4c4;
 }
-
+* {
+    font-family: Century Gothic;
+}
 @media (max-width: 600px) {
     .header {
         width: 100%;
@@ -100,5 +100,18 @@ body {
         margin-left: 1%;
         background-color: #ffffff;
     }
-    
+    .formulario input {
+        font-size: 200%;
+        margin: 2%;
+        padding: 1%;
+        width: 90%;
+    }
+    .formulario textarea {
+        font-size: 200%;
+        margin: 2%;
+        padding: 1%;
+        width: 90%;
+        min-height: 40%;
+        max-height: 40%;
+    }
 }
