@@ -10,7 +10,9 @@ a {
 body {
     background-color: #c7c4c4;
 }
-
+.equipos {
+    background-color: #ffffff;
+}
 @media (max-width: 600px) {
     .header {
         width: 100%;
@@ -98,7 +100,6 @@ body {
         display: inline-block;
         margin-top: 1%;
         margin-left: 1%;
-        background-color: #ffffff;
     }
     .equipos h1 {
         text-align: center;
